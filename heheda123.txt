@@ -1,0 +1,12 @@
+﻿wochiyouname
+wochiyouname1111
+git add 		添加文件从工作文件夹到索引区
+git add . 		添加所有文件
+git checkout [文件名]	撤销修改
+git reset HEAD <file>	从索引区撤销添加
+
+git diff 		比较工作文件夹修改前后的不同
+git diff --cached 	比较工作文件夹和索引区的不同
+
+git rm 			删除文件
+git mv			文件的改名
