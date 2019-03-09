@@ -39,5 +39,8 @@ abc：每次做出的小更新、新功能时，发布的版本号
 xxx：每次bug修正时发布的版本号
 git tag				显示当前tag的状态
 git tag v1.0.0			打上标签
+git show v1.0.0			查看以前的版本
 
 
+使用别名
+git config --global alias.co checkout	把co代替checkout
