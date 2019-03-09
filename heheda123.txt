@@ -15,6 +15,15 @@ git commit -m "commit message"
 git commit --amend  	追加修改
 git commit -am "commit message" [--amend]
 
-git reset --hard HEAD 	返回HEAD版本过去
-git reset --hard HEAD~	返回HEAD-1的版本去
-git reset --hard HEAD~n	返回前n代版本去
+git reset --hard HEAD 		返回HEAD版本过去
+git reset --hard HEAD~		返回HEAD-1的版本去
+git reset --hard HEAD~n		返回前n代版本去
+git reset --hard e189f05	返回指定版本中去（记住ID的情况）
+
+git reflog -3			获取最近3次操作（忘记ID时使用）
+
+使用分支
+git分支功能是git最重要的功能
+git branch
+git branch dev
+git checkout dev
