@@ -27,3 +27,4 @@ git分支功能是git最重要的功能
 git branch
 git branch dev
 git checkout dev
+i hate git
