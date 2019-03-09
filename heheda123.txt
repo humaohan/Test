@@ -30,3 +30,14 @@ git branch -d dev		创建一个叫dev的分支并切换
 git checkout dev		切换分支
 git merge dev			合并分支
 git branch -d dev		删除分支
+
+
+使用Tag标签
+NNN.abc.xxx
+NNN：大版本号
+abc：每次做出的小更新、新功能时，发布的版本号
+xxx：每次bug修正时发布的版本号
+git tag				显示当前tag的状态
+git tag v1.0.0			打上标签
+
+
