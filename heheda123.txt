@@ -8,5 +8,13 @@ git reset HEAD <file>	从索引区撤销添加
 git diff 		比较工作文件夹修改前后的不同
 git diff --cached 	比较工作文件夹和索引区的不同
 
-git rm 			删除文件
+git rm [-cached]	删除文件(从索引区)
 git mv			文件的改名
+
+git commit -m "commit message"
+git commit --amend  	追加修改
+git commit -am "commit message" [--amend]
+
+git reset --hard HEAD 	返回HEAD版本过去
+git reset --hard HEAD~	返回HEAD-1的版本去
+git reset --hard HEAD~n	返回前n代版本去
